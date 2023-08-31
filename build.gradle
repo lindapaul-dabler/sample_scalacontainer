@@ -1,0 +1,1 @@
+implementation 'software.amazon.awssdk:aws-sdk-java:2.17.14' // Use the latest version available
