@@ -8,5 +8,4 @@ COPY send_status.py ./
 COPY run.sh ./
 RUN apt-get install --no-cache-dir -r base_requirements.txt
 RUN chmod +x run.sh
-CMD ["scalac","samplefile.scala"]
 CMD ./run.sh
